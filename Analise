@@ -1,0 +1,157 @@
+Projeto scrum -> scrumy.com/booska
+
+Alexandre Rodrigues dos Santos
+Guilherme Borges dos Santos
+Wellington Pereira Sobral
+
+
+Aplicativo Mobile Buscador de Sebos
+
+Versão 1.0
+
+ 
+Controle de Versão
+Versão	Controle	Data	Razões para alteração	Responsável
+1.0		19/08/2015	Primeira versão	Guilherme Borges
+				
+				
+				
+				
+				
+
+1.	Introdução
+
+1.1.	Objetivo do Documento
+A finalidade deste documento é coletar e definir as necessidades do Cliente e as características do Projeto de Software desejado, descritas em alto nível, focando o negócio sob a perspectiva do Cliente. Neste documento está descrito “o quê” o Cliente necessita e, a descrição do problema a ser resolvido. Em nenhum momento este documento descreverá “como” estas necessidades serão atendidas.
+
+1.2.	Referências
+Nesta seção devem aparecer referências a eventuais documentos, fontes externas e internas ao projeto que sejam relevantes e/ou completem seu entendimento. Podem ser listados os documentos fornecidos pelo cliente que apoiam/apoiaram na definição do projeto, como planilhas, manuais, procedimentos, atas de reunião e outros, bem como onde encontrá-los (rede).
+
+
+2.	Partes Envolvidas e Usuários
+Entende-se por Partes envolvidas no projeto todo participante do processo de negócio, que será ou não usuário da solução a ser desenvolvida. Qualquer pessoa ou entidade que seja afetada pela solução a ser definida.
+Como usuários, definimos aqueles que de fato utilizarão a solução a ser implementada em suas atividades de trabalho.
+Partes envolvidas em qualquer projeto: Patrocinador, Cliente e o Consultor.
+
+Nome	Descrição	Responsabilidades
+Nome da pessoa ou papel	Descrição do papel da pessoa no projeto
+Ex.:Patrocinador, Consultor etc.	Responsabilidades em relação ao projeto
+Ex.: aprovar orçamento, realizar os testes de aceite, aprovar as mudanças de escopo no projeto, fornecer informações referentes ao escopo do projeto, fornecer o aceite final do projeto, etc.)
+Maria de Souza	Patrocinador do Projeto	Aprovar orçamento e cronograma do projeto.
+João da Silva	Representante da área responsável pelo processo de conciliação bancária	Fornecer informações pertinentes aos processos e regras de negócio da área de contas a receber;
+Suportar a equipe de projeto no detalhamento e validação das funcionalidades e requisitos;
+Validar funcionalidades da aplicação;
+Validar a solução apresentada e fornecer o aceite final do projeto;
+Fornecer informações relacionadas à parte operacional do sistema;
+Validar protótipo da solução e efetuar testes de aceitação;
+Prover treinamento para os usuários finais.
+Nome do Consultor de Informática	Gerente de Relacionamento entre o Cliente e a área de Informática	Apoiar o Cliente na Concepção do projeto;
+Servir como facilitador, perante o Cliente e equipe do projeto, na resolução de conflitos durante a execução do projeto.
+3.	Posicionamento
+
+3.1.	Sentença do Problema
+O problema	Foi identificada a necessidade de se procurar livros usados em qualquer lugar que o usuário esteja. Também se viu possíveis melhorias no processo de cadastro de livros, manutenção do acervo e venda de livros usados, voltado para os sebistas.
+
+
+Pessoas/Áreas afetadas	Descreva as pessoas/áreas afetadas pelo problema.
+Ex.: Departamentos de Contas a Receber, Contas a Pagar, Investimentos.
+O impacto disso é	Descreva qual o impacto do problema no negócio.
+Ex.: Atrasos no fechamento do fluxo de caixa. 
+Uma solução de sucesso permitiria	Solução macro que resolve o problema.
+Ex.: Precisão no fechamento do fluxo e aplicação dos valores disponíveis. 
+
+3.2.	Visão da Situação Atual
+Descrever nesta seção como o problema descrito anteriormente é tratado. Destacar os pontos fortes e fracos do processo atual. Caso exista um sistema de TI em uso atualmente, descrever como é utilizado. 
+
+3.3.	Necessidades dos Envolvidos
+Esta seção destaca as necessidades das principais Partes envolvidas e Usuários. 
+Área Contas a receber:
+•	Uma solução de software integrado aos bancos conveniados pode coletar as informações desejadas pela área de Contas a Receber em uma periodicidade estabelecida garantindo que, na data do vencimento, aquela área tenha com precisão os valores recebidos;
+•	etc
+Área de Investimentos
+•	Não deixar de aplicar o saldo disponível em conta corrente;
+•	Etc
+4.	Características funcionais
+Descrição Esta seção oferece subsídios para composição dos itens de arquitetura de sistemas que serão implementados quando da solução final. De acordo com as afirmações aqui descritas, itens de segurança, funcionalidade, continuidade e acessibilidade poderão ser dimensionadas antecipadamente evitando os efeitos prejudiciais do sub-dimensionamento da plataforma. Poderão ser assinaladas mais de uma resposta para a mesma questão.
+
+4.01 - Quem serão os usuários?
+
+Clientes em geral de Sebos
+Sebistas (donos de Sebos)
+
+
+
+
+
+4.02 - Qual a disponibilidade esperada? 
+
+	(  )	Horário comercial. ( 8:00 as 19:00, Seg a Sex )
+	(  )	Processamento Noturno (Batchs) . ( 18:00 às 7:00, Seg a Sex )
+	(X)	Tempo integral. ( 24hs, 7 dias por semana )
+	(  )	Somente Final de Semana (Sábado e Domingo)
+	(  )	È esperada uma utilização avulsa e  sob demanda.
+
+4.03 - Quantos usuários são previstos ?   
+
+	(  )	zero - 50.
+	(  )	51 a 100.
+	(  )	101 a 500.
+	(  )	501 a 1000.
+	(  )	1001 a 5000.
+	(X)	acima de 5000.
+	
+4.04 - Como você qualifica a sua necessidade em relação aos sistemas existentes? 
+
+	(X)	Uma melhoria do sistema existente.
+	(  )	A substituição do sistema atual.
+	(  )	A criação de um sistema.
+	(  )	A aquisição de um programa de mercado.
+	(  )	A mecanização de um processo que hoje é feito manualmente.
+	(  )	A mecanização de um processo novo.
+
+
+4.05 - De que maneira os usuários farão uso desta solução
+  
+	(  )	Computadores locais.
+	(  )	Internet.
+	(X)	Dispositivos móveis. (Smatphones ou tablets ) com conexão Online
+
+4.06 –  Qual sistema operacional
+ 
+	(X)	Android
+	(  )	iOS
+	(  )      Windows Phone
+
+
+4.09 - Qual a previsão do número de páginas de relatórios impressas diariamente pela solução?
+ 
+	(  )	Não haverá impressão.
+	(  )	0 a 1000.
+	(  )	1001 a 5000.
+	(  )	acima de 5000.
+
+4.11 - Que tratamento é esperado após a implementação? 
+   
+.	(  )	Suporte padrão. (Help Desk)
+	(  )	Atendimento e suporte por empresa terceira
+	(  )	Aplicação de responsabilidade dos usuários.
+	(  )	Não haverá necessidade de suporte.
+
+5.	Premissas e Restrições
+Esta seção descreve, na forma de tópicos, as restrições e premissas do projeto, envolvendo orçamento, prazo, hardware etc. Exemplos:
+•	Recursos e Prazos
+Identifique se existem limitações rígidas de recursos financeiros, orçamentários e/ou datas críticas que podem afetar os requisitos do software.
+
+
+Exemplo:
+O sistema deve ser liberado até 01/04/2014, para que a empresa inicie a comercialização do novo seguro de seqüestro de pessoas.
+•	Legal
+Identifique se existem padrões, normas, legislação que devem ser respeitadas e que podem afetar os requisitos do software.
+Exemplo:
+O produto deve respeitar a norma da Susep que dispõe sobre a Resolução 86.
+•	Requisitos de projeto (segurança, performance, confiabilidade, usabilidade ou contingência, etc).
+Especifique o nível desejado para itens como, por exemplo, precisão dos cálculos e saídas do sistema, os volumes que o produto deve ser capaz de trabalhar, o quão fácil de utilizar o sistema deve ser para determinados usuários etc.
+Exemplos:
+-	O sistema deve ser instalado em um dispositivo móvel para uso dos inspetores em suas visitas aos clientes.
+-	O sistema deve suportar 300 usuários simultâneos entre o período de 9:00 às 11:00. O número máximo nos outros períodos será de aproximadamente 150 usuários.
+-	Todos os valores monetários devem ter precisão de cinco casas decimais.
